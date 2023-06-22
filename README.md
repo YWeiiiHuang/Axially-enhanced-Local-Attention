@@ -7,7 +7,7 @@ Citing our work
 If you think our work is helpful, please cite
 {
   title={Axially-enhanced Local Attention Network for Finger Vein Recognition}, 
-  author={},
+  author={Yiwei Huang, Hui Ma, and Mingyang Wang},
   booktitle={},
   pages={},
   year={2023}
