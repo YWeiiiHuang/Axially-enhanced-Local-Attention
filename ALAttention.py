@@ -3,8 +3,7 @@ from torch import nn
 from torch.nn import functional as F
 from timm.models.layers import DropPath, trunc_normal_
 
-class ALAttention(
-    nn.Module):  # It can only use static size as input,but you can define a new input size if you wish.
+class ALAttention(nn.Module): 
     def __init__(self, input_size, dim, num_heads=1, window_size=3, leg_size=5
                  , qkv_bias=True, qk_scale=None,):
         super().__init__()
